@@ -1,0 +1,56 @@
+body {
+  background-color: #f8edeb;
+  padding: 20px;
+  font-family: "Cormorant Infant", serif;
+  font-size: 1.2em;
+  color: #bb7d72;
+}
+
+h1 {
+  color: #d8e2dc;
+}
+
+h2 {
+  color: #fec5bb;
+}
+
+button {
+    background-color: #fec89a; /* Устанавливаем цвет для кнопки */
+    color: #ffffff; /* Устанавливаем белый цвет для текста на кнопке */
+    border: none; /* Убираем границу кнопки */
+    padding: 10px 20px; /* Задаем отступы внутри кнопки */
+    border-radius: 5px; /* Добавляем скругление краев */
+    cursor: pointer; /* Делаем курсор указатель при наведении на кнопку */
+}
+
+/* Пример стиля при наведении на кнопку */
+button:hover {
+    background-color: #e5b58b; /* Изменяем цвет кнопки при наведении на нее */
+}
+
+.question-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.question-info {
+  flex: 1;
+  text-align: left;
+}
+
+.question-info img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.options {
+    flex: 1;
+}
+
+.options input[type="radio"] {
+    margin-bottom: 10px;
+}
